@@ -242,6 +242,12 @@ MAC is checked first.
   middleware, which rejects cross-origin requests using the `Sec-Fetch-Site`
   and `Origin` headers.
 
+## Related packages
+
+- [securecookie](https://github.com/chmike/securecookie): secure cookies
+  encrypted and authenticated with AES-GCM, with keys derived from the same
+  seed as csrftoken. It can hold the session id and the pre-session id.
+
 ## Contributors
 
 - Claude Opus 5.5 (Anthropic):
